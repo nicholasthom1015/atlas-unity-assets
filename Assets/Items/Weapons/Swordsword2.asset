@@ -19,7 +19,7 @@ MonoBehaviour:
   rarity: 0
   requiredLevel: 0
   equipSlot: 0
-  weaponType: 0
+  weaponType: 1
   attackPower: 0
   attackSpeed: 0
   durability: 0

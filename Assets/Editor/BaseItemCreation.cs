@@ -11,6 +11,7 @@ public abstract class BaseItemCreation<T> : EditorWindow where T : BaseItem
     protected float baseValue;
     protected int requiredLevel;
     protected Rarity rarity;
+
     
     public static void ShowWindow()
     {

@@ -53,8 +53,8 @@ public class WeaponDatabase : ItemDatabase<Weapon>
         {
 
         }
-
-        if (GUILayout.Button("Create Weaon"))
+        EditorGUILayout.LabelField("Weapon Smith", EditorStyles.boldLabel);
+        if (GUILayout.Button("Create Weapon"))
         {
             WeaponCreation wc = (WeaponCreation)EditorWindow.GetWindow(typeof(WeaponCreation), false, "WeaponCreation");
         }

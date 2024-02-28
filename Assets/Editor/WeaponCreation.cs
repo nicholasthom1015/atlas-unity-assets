@@ -22,7 +22,6 @@ public class WeaponCreation : BaseItemCreation<Weapon>
         {
             CreateItem<Weapon>();
             
-            
         }
     }
 
@@ -40,6 +39,6 @@ public class WeaponCreation : BaseItemCreation<Weapon>
 
         criticalHitChance = EditorGUILayout.FloatField("CriticalHitChance", criticalHitChance);
 
-        
+        weaponType = (WeaponType)EditorGUILayout.EnumPopup("Weapon Type", weaponType);
     }
 }
